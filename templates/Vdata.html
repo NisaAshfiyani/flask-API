@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visualisasi Data dengan Streamlit</title>
+</head>
+<body>
+    <h1>Visualisasi Data dengan Streamlit</h1>
+
+    <div id="streamlitContainer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/streamline-runtime@3.0.0/+esm"></script>
+    <script>
+        // Tambahkan kode Streamlit di sini
+        // Tambahkan kode Streamlit di sini
+        var barChartData = [
+            { x: 'A', y: 10 },
+            { x: 'B', y: 5 },
+            { x: 'C', y: 8 },
+            { x: 'D', y: 12 },
+        ];
+        
+        Streamlit.setComponentReady();
+        Streamlit.barChart(barChartData);
+
+    </script>
+</body>
+</html>
